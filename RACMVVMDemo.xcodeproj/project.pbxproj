@@ -16,6 +16,7 @@
 		CB6E9E582239EDFA0018CBFE /* RACMVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E572239EDFA0018CBFE /* RACMVVMDemoTests.swift */; };
 		CB6E9E632239EDFA0018CBFE /* RACMVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E622239EDFA0018CBFE /* RACMVVMDemoUITests.swift */; };
 		CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */; };
+		CB6E9E76223A01680018CBFE /* UITableView+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E75223A01680018CBFE /* UITableView+Signal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CB6E9E622239EDFA0018CBFE /* RACMVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACMVVMDemoUITests.swift; sourceTree = "<group>"; };
 		CB6E9E642239EDFA0018CBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SDWebImage+Signal.swift"; sourceTree = "<group>"; };
+		CB6E9E75223A01680018CBFE /* UITableView+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Signal.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */,
+				CB6E9E75223A01680018CBFE /* UITableView+Signal.swift */,
 			);
 			path = SignalExtension;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */,
+				CB6E9E76223A01680018CBFE /* UITableView+Signal.swift in Sources */,
 				CB6E9E452239EDF70018CBFE /* ViewController.swift in Sources */,
 				CB6E9E432239EDF70018CBFE /* AppDelegate.swift in Sources */,
 			);

@@ -15,6 +15,7 @@
 		CB6E9E4D2239EDFA0018CBFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6E9E4B2239EDFA0018CBFE /* LaunchScreen.storyboard */; };
 		CB6E9E582239EDFA0018CBFE /* RACMVVMDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E572239EDFA0018CBFE /* RACMVVMDemoTests.swift */; };
 		CB6E9E632239EDFA0018CBFE /* RACMVVMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E622239EDFA0018CBFE /* RACMVVMDemoUITests.swift */; };
+		CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CB6E9E5E2239EDFA0018CBFE /* RACMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RACMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6E9E622239EDFA0018CBFE /* RACMVVMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACMVVMDemoUITests.swift; sourceTree = "<group>"; };
 		CB6E9E642239EDFA0018CBFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SDWebImage+Signal.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,9 @@
 		CB6E9E412239EDF70018CBFE /* RACMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CB6E9E72223A00C70018CBFE /* Tool */,
+				CB6E9E71223A00B00018CBFE /* UserCenter */,
+				CB6E9E70223A00A00018CBFE /* SignalExtension */,
 				CB6E9E422239EDF70018CBFE /* AppDelegate.swift */,
 				CB6E9E442239EDF70018CBFE /* ViewController.swift */,
 				CB6E9E462239EDF70018CBFE /* Main.storyboard */,
@@ -139,6 +144,28 @@
 				CB6E9E642239EDFA0018CBFE /* Info.plist */,
 			);
 			path = RACMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB6E9E70223A00A00018CBFE /* SignalExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */,
+			);
+			path = SignalExtension;
+			sourceTree = "<group>";
+		};
+		CB6E9E71223A00B00018CBFE /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		CB6E9E72223A00C70018CBFE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		F6111027A81779A3A9BE69D3 /* Frameworks */ = {
@@ -339,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */,
 				CB6E9E452239EDF70018CBFE /* ViewController.swift in Sources */,
 				CB6E9E432239EDF70018CBFE /* AppDelegate.swift in Sources */,
 			);

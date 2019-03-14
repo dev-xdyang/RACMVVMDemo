@@ -18,6 +18,7 @@
 		CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */; };
 		CB6E9E76223A01680018CBFE /* UITableView+Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E75223A01680018CBFE /* UITableView+Signal.swift */; };
 		CB6E9E78223A02590018CBFE /* Signal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E77223A02590018CBFE /* Signal+Extension.swift */; };
+		CB6E9E7A223A03060018CBFE /* ListViewModable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6E9E79223A03060018CBFE /* ListViewModable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CB6E9E73223A00F20018CBFE /* SDWebImage+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SDWebImage+Signal.swift"; sourceTree = "<group>"; };
 		CB6E9E75223A01680018CBFE /* UITableView+Signal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Signal.swift"; sourceTree = "<group>"; };
 		CB6E9E77223A02590018CBFE /* Signal+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Signal+Extension.swift"; sourceTree = "<group>"; };
+		CB6E9E79223A03060018CBFE /* ListViewModable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		CB6E9E72223A00C70018CBFE /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				CB6E9E79223A03060018CBFE /* ListViewModable.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				CB6E9E74223A00F20018CBFE /* SDWebImage+Signal.swift in Sources */,
 				CB6E9E76223A01680018CBFE /* UITableView+Signal.swift in Sources */,
 				CB6E9E78223A02590018CBFE /* Signal+Extension.swift in Sources */,
+				CB6E9E7A223A03060018CBFE /* ListViewModable.swift in Sources */,
 				CB6E9E452239EDF70018CBFE /* ViewController.swift in Sources */,
 				CB6E9E432239EDF70018CBFE /* AppDelegate.swift in Sources */,
 			);
